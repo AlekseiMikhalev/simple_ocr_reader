@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ocr_reader"
+version = "0.1.0"
+description = "extract text from png, jpg, pdf"
+authors = ["'Aleksei <'mikhalev.aleksei1@gmail.com'>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "3.7"
+numpy = "^1.21.4"
+matplotlib = "^3.5.0"
+pytesseract = "^0.3.8"
+click = "^8.0.3"
+pdf2image = "^1.16.0"
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
